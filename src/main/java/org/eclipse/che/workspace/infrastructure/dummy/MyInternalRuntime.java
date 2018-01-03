@@ -107,7 +107,9 @@ public class MyInternalRuntime extends InternalRuntime<MyRuntimeContext> {
   }
 
   private void doStartMachine(String machineName, InternalMachineConfig machineConfig) {
-    //
+    MyInternalEnvironment internalEnv = getContext().getEnvironment();
+    // perform start of the machine using the specified machine config
+    // and infrastructure specific objects from the internal environment
   }
 
   private void doWaitServersRunning(String machineName, InternalMachineConfig machineConfig)

@@ -21,7 +21,7 @@ import org.eclipse.che.workspace.infrastructure.dummy.env.MyInternalEnvironment;
 import org.eclipse.che.workspace.infrastructure.dummy.env.MyInternalEnvironmentFactory;
 
 /** @author Sergii Leshchenko */
-public class MyInfaModule extends AbstractModule {
+public class MyInfraModule extends AbstractModule {
   @Override
   protected void configure() {
     MapBinder<String, InternalEnvironmentFactory> envFactories =
